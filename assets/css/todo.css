@@ -1,0 +1,10 @@
+.container {
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  margin: auto; }
+
+.todos-title {
+  color: blue; }
+
+.todos-list-item {
+  color: fuchsia; }

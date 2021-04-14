@@ -5,8 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup" :"rollup --config rollup.config.js"
+    "rollup": "rollup --config rollup.config.js",
+    "serve": "node server.js",
+    "scss": "node-sass --watch scss -o assets/css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.36",
+    "@swc/core": "^1.2.52",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
 }
