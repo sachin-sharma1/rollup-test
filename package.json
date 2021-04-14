@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup --config rollup.config.js",
-    "start": "./node_modules/live-server/index.js server.js"
+    "start": "live-server index.html"
   },
   "author": "",
   "license": "ISC",
