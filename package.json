@@ -6,13 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup --config rollup.config.js",
-    "start": "live-server index.html"
+    "start": "live-server index.html",
+    "scss": "node-sass --watch scss -o assets/css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@swc/cli": "^0.1.36",
     "@swc/core": "^1.2.52",
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
   }
 }
