@@ -12,3 +12,4 @@ var params = {
     logLevel: 2, // 0 = errors only, 1 = some, 2 = lots
     middleware: [function(req, res, next) { next(); }] // Takes an array of Connect-compatible middleware that are injected into the server middleware stack
 };
+liveServer.start(params);

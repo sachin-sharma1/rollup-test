@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup --config rollup.config.js",
-    "start": "live-server index.html",
+    "serve": "node server.js",
     "scss": "node-sass --watch scss -o assets/css"
   },
   "author": "",
