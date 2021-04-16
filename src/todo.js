@@ -4,12 +4,10 @@ const init = function()
 	store = {};
 }
 
-
-const add  = (name , store)
-{
-	store = { ...store , {name , isDone: false}}
+const add  = (name , store) =>{
+	store = [...store ,{name , isDone: false}]
 }
-const edit = (name , store)
+const edit = (name , store)=>
 {
 	const index = store.findIndex( todo => todo.name === name)
 	if(index === -1) return
@@ -18,7 +16,7 @@ const edit = (name , store)
 	return store;
 }
 
-const remove = (name , store)
+const remove = (name , store)=>
 {
 	const index = findIndex(name, store)
 	if(index != -1) delete store[index];
